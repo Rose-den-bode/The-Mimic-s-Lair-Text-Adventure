@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6be3adb6b10b56448979c91b5ff03754, type: 3}
+  m_Name: newStoryNode-Room 9
+  m_EditorClassIdentifier: 
+  storytext: In this room, the paintings whisper secrets of the dungeon. One adventurer
+    in the artwork points to a hidden passage, while another shows a monstrous Mimic
+    feasting on its victims. You understand that this dungeon is alive and dangerous.
+  nextStoryNodes:
+  - {fileID: 11400000, guid: 75d0cb4ea3d753847a807ec8f3177a26, type: 2}
+  - {fileID: 11400000, guid: 00157d0b8eeef7140ab3e6feb9c2b3d0, type: 2}
+  nextStoryNodeText:
+  - Escape through the hidden passage
+  - Face the Mimic head-on

@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6be3adb6b10b56448979c91b5ff03754, type: 3}
+  m_Name: newStoryNode-Room 11
+  m_EditorClassIdentifier: 
+  storytext: As you explore the corners of the entrance, you notice a slight indentation
+    in the wall. Curious, you press against it, and a hidden passage opens up. You
+    step into a small, dimly lit chamber filled with old relics and a faint glow
+    emanating from a pedestal at the center. It feels ancient, filled with untold
+    stories.
+  nextStoryNodes:
+  - {fileID: 11400000, guid: 0fd8d86c35d415649b1f407672940b6c, type: 2}
+  - {fileID: 11400000, guid: b849ca7bb6eb60843b9c403bd2b22405, type: 2}
+  - {fileID: 11400000, guid: a730ab47808f8e94088fd387017f0ea1, type: 2}
+  nextStoryNodeText:
+  - Examine the pedestal
+  - Search the chamber for other items
+  - Leave the chamber and return to the main hallway

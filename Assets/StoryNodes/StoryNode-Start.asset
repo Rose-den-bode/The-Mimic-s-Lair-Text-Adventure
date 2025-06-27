@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6be3adb6b10b56448979c91b5ff03754, type: 3}
+  m_Name: StoryNode-Start
+  m_EditorClassIdentifier: 
+  storytext: You find yourself at the entrance of a dimly lit dungeon. The cold stone
+    walls are adorned with strange markings that seem to shift in the flickering
+    torchlight. Ahead of you are three hallways, each leading to a different room.
+    Your adventurer's instincts are sharp, but a sense of unease lingers in the air.
+    Which way will you go?
+  nextStoryNodes:
+  - {fileID: 11400000, guid: 1da91ff183b07434ca4623c5bf1eef4a, type: 2}
+  - {fileID: 11400000, guid: db58c2d95b3ca0d439160b874f5ca0af, type: 2}
+  - {fileID: 11400000, guid: b3e74409d23a9a34690945ecb24f36d7, type: 2}
+  nextStoryNodeText:
+  - Take the left hallway
+  - Head down the middle hallway
+  - Venture down the right hallway

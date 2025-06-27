@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6be3adb6b10b56448979c91b5ff03754, type: 3}
+  m_Name: newStoryNode-Room 5
+  m_EditorClassIdentifier: 
+  storytext: You turn away from the temptation of the chest and find yourself in
+    another narrow hallway. A heavy door looms at the end, and faint footsteps echo
+    from behind it. Will you open the door and confront whatever lies within, or
+    will you turn back and search for another way?
+  nextStoryNodes:
+  - {fileID: 11400000, guid: 21516dedb8e1ea845b4a7813487e239c, type: 2}
+  - {fileID: 11400000, guid: a730ab47808f8e94088fd387017f0ea1, type: 2}
+  nextStoryNodeText:
+  - Open the door and continue
+  - Turn back to find another way

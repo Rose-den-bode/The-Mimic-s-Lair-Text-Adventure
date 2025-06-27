@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6be3adb6b10b56448979c91b5ff03754, type: 3}
+  m_Name: newStoryNode-Room 8
+  m_EditorClassIdentifier: 
+  storytext: 'With a deep breath, you open the chest in the center of the room. At
+    first, it seems filled with gold and jewels, glistening in the dim light. But
+    as you reach for the coins, they disintegrate into dust, a cruel trick by the
+    Mimic. The walls around you begin to crumble, sealing your fate.
+
+
+    You are
+    stuck. Will you try to find another way out, or will you accept your fate?'
+  nextStoryNodes:
+  - {fileID: 11400000, guid: 4e45795f725dc404ea15c142543ce5f8, type: 2}
+  - {fileID: 11400000, guid: 3931a2f23edc5e34e9cc2424c320a258, type: 2}
+  nextStoryNodeText:
+  - Try to escape
+  - Accept your fate

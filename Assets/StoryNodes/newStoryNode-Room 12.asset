@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6be3adb6b10b56448979c91b5ff03754, type: 3}
+  m_Name: newStoryNode-Room 12
+  m_EditorClassIdentifier: 
+  storytext: As you approach the pedestal in the hidden chamber, you feel a pulse
+    of ancient magic. On the pedestal lies a beautifully crafted amulet that shimmers
+    with a golden light. You realize this is the key to escaping the dungeon. With
+    the amulet in hand, you feel a rush of warmth and safety.
+  nextStoryNodes:
+  - {fileID: 11400000, guid: 71b2c4e80d2b4994d9a6e27f5172201f, type: 2}
+  - {fileID: 11400000, guid: 1978039e107216e42b919ddb1cdb0966, type: 2}
+  nextStoryNodeText:
+  - Use the amulet to teleport out.
+  - Examine the amulet further
